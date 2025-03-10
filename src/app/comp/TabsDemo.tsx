@@ -69,7 +69,7 @@ export function TabsDemo() {
       title: "Background Changer",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl  text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
          <div className="flex flex-row gap-10">
             <div>Weather App </div>
             <button className="bg-slate-900 text-gray-300 px-4 rounded-md"><a target="_blank" href="https://github.com/dasrupdip04/backgroundchanger">Github</a></button>
