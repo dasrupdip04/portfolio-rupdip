@@ -31,7 +31,7 @@ export const GoogleGeminiEffect = ({
      
       
         <h1 className="text-3xl md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-10">CONTACT ME</h1>
-        <div className="flex items-center justify-center gap-3">
+        <div className="flex sm:items-center sm:justify-center sm:gap-3 flex-col ">
             <span className="  text-xl md:text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-5">Email: <a target="_blank" href="mailto:dasrupdip04@gmail.com" className="text-center text-blue-500 hover:text-blue-600"> dasrupdip04@gmail.com  </a> </span>
             <span className="text-xl md:text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-5">|</span>
             <span className="  text-xl md:text-2xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-5"> <a target="_blank" href="https://www.linkedin.com/in/rupdip-das-aa5243291/" className="text-center text-blue-500 hover:text-blue-600"> Linkedin </a> </span>
