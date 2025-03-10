@@ -34,6 +34,9 @@ export function AuroraBackgroundDemo() {
           & more to code smarter and faster. Eager to contribute and learn in a
           dynamic internship environment.
         </p>
+        <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-2 rounded-md">
+          <a target="_blank" href="https://rupdip-resume-overleaf.tiiny.site/">Resume</a>
+        </button>
       </div>
     </AuroraBackground>
   );
