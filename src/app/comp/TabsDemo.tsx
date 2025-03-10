@@ -35,6 +35,21 @@ export function TabsDemo() {
           </div>
         ),
       },
+      {
+        title: "Password Generator",
+        value: "playground",
+        content: (
+          <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+           <div className="flex flex-row gap-10">
+              <div>Password Generator App </div>
+              <button className="bg-slate-900 text-gray-300 px-4 rounded-md"><a target="_blank" href="https://github.com/dasrupdip04/ToDoList">Github</a></button>
+           </div>
+            
+            <VideoContainer src="https://videos.pexels.com/video-files/31093427/13285878_2382_1080_60fps.mp4" />
+          </div>
+          
+        ),
+      },
     
     {
       title: "Weather App",
@@ -64,21 +79,7 @@ export function TabsDemo() {
         </div>
       ),
     },
-    {
-        title: "Password Generator",
-        value: "playground",
-        content: (
-          <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-           <div className="flex flex-row gap-10">
-              <div>Password Generator App </div>
-              <button className="bg-slate-900 text-gray-300 px-4 rounded-md"><a target="_blank" href="https://github.com/dasrupdip04/ToDoList">Github</a></button>
-           </div>
-            
-            <VideoContainer src="../../pwgenvid.mov" />
-          </div>
-          
-        ),
-      },
+    
   ];
 
   return (
@@ -101,7 +102,7 @@ type VideoContainerProps = {
         controls
         width={1000}
         height={1000}
-        className="object-cover object-left-top h-[80%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+        className="flex items-center justify-centerobject-cover object-left-top h-[80%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
       >
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
